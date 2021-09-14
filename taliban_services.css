@@ -1,0 +1,88 @@
+body{
+  background:url("./kahawa/coffee-171653_1920-5.jpg");
+}
+.card-container{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.card:hover{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background-color:lightsalmon;
+    
+}
+nav{
+    background-color: whitesmoke;
+    vertical-align: middle;
+    font-stretch: semi-condensed;
+}
+h1{
+    background:palegoldenrod;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+
+}
+aside{
+    background: wheat;
+    padding: 2px;
+    align-content: center;
+    text-align: left;
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    color: violet;
+}
+ h2{
+     background: lightcyan;
+     padding: 2px;
+ }
+ /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .card-container2{
+    display: flex;
+    flex-direction:initial;
+    align-content:right;
+    background-color:lightsalmon;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 300px;
+    height: 200px;
+    
+}
